@@ -1,11 +1,13 @@
-# sfdx-dev-fun
 <h1 align="center">sfdx-dev-fun</h1>
 This project contains the sample code of goofin off and having fun with sfdx and developing on the platform. The objective of this project is to continue development practice and creativity. 
 
 ===========================
 #### Contents:
-- [Tools](#tools) 
-- [Resources](#resources)
+- [Assets](#assets)
+  - [Triggers](#triggers)
+  - [Apex Classes](#apex-classes)
+  - [Apps and Solutions](#apps-and-solutions)
+  - [Resources](#resources)
 
 ===========================
 #### Tools
@@ -14,7 +16,7 @@ This project contains the sample code of goofin off and having fun with sfdx and
 | **SFDX-CLI** | [![npm](https://img.shields.io/npm/v/sfdx-cli.svg?label=SFDX-CLI&logo=Salesforce&style=Popout)](https://developer.salesforce.com/tools/sfdxcli)  |
 
 ===========================
-## Contents
+## Assets
 
 ### Triggers
 Trigger: AccountUpdate
