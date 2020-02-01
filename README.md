@@ -1,5 +1,5 @@
 <h1 align="center">sfdx-dev-fun</h1>
-This project contains the sample code of goofin off and having fun with sfdx and developing on the platform. The objective of this project is to continue development practice and creativity. 
+This project contains code of just me goofin off, having fun with sfdx, and developing on the platform. The objective of this project is to continue development practice and creativity. 
 
 ===========================
 #### Contents:
@@ -8,7 +8,7 @@ This project contains the sample code of goofin off and having fun with sfdx and
   - [Apex Classes](#apex-classes)
   - [Apps and Solutions](#apps-and-solutions)
   - [Resources](#resources)
-
+  
 ===========================
 #### Tools
 |  Tool:       |  Version:  |
