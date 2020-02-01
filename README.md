@@ -23,7 +23,7 @@ This project contains code of just me goofin off, having fun with sfdx, and deve
 ## Assets:
 
 ### Triggers
-Trigger: AccountUpdate
+--Name: AccountUpdate <br/>
 Description: Post chatter message on a specific group with account information when specific criteria on Account is met.
 
 ### Apex Classes
