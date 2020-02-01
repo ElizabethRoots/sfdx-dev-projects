@@ -2,8 +2,7 @@
 This project contains code of just me goofin off, having fun with sfdx, and developing on the platform. The objective of this project is to continue development practice and creativity. 
 
 ===========================
-## Contents: 
-- [Contents:](#contents)
+#### Contents: 
 - [Tools:](#tools)
 - [Assets:](#assets)
   - [Triggers](#triggers)
