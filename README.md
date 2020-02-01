@@ -2,23 +2,26 @@
 This project contains code of just me goofin off, having fun with sfdx, and developing on the platform. The objective of this project is to continue development practice and creativity. 
 
 ===========================
-#### Tools
+## Contents: 
+- [Contents:](#contents)
+- [Tools:](#tools)
+- [Assets:](#assets)
+  - [Triggers](#triggers)
+  - [Apex Classes](#apex-classes)
+  - [Apps and Solutions](#apps-and-solutions)
+- [Resources](#resources)
+  
+=========================== 
+
+## Tools:
 |  Tool:       |  Version:  |
 | ------------ | ---------- |
 | **SFDX-CLI** | [![npm](https://img.shields.io/npm/v/sfdx-cli.svg?label=SFDX-CLI&logo=Salesforce&style=Popout)](https://developer.salesforce.com/tools/sfdxcli)  |
 
 ===========================
 
-#### Contents:
-- [- Resources](#ul-liresourcesli-ul)
-  - [Assets](#assets)
-    - [Triggers](#triggers)
-    - [Apex Classes](#apex-classes)
-    - [Apps and Solutions](#apps-and-solutions)
-    - [Resources](#resources)
-=========================== 
 
-## Assets
+## Assets:
 
 ### Triggers
 Trigger: AccountUpdate
@@ -30,5 +33,5 @@ None... yet!
 ### Apps and Solutions
 None... yet!
 
-### Resources
+## Resources
 For details on using sfdx-simple, please review the [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev).
