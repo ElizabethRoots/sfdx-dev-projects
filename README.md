@@ -29,9 +29,9 @@ I used the following tools to create assets throughout this project.
 
 #### Triggers
 
---Name: AccountUpdate <br/>
+* AccountUpdate <br/>
 Description: Post chatter message on a specific group with account information when specific criteria on Account is met.
-Purpose: This trigger is really unnecessary. This could be better handled in a flow IMO. I needed a simple trigger because I have written content on how to properly structure code. Such as bulkify the soql pull, don't have DML statements in a FOR loop... etc. As useless as this trigger is, it was a bit of fun to create. 
+Purpose: This trigger is really unnecessary. This could be better handled in a flow IMO. I needed a simple trigger because I have written content on how to properly structure code. Such as bulkify the soql pull, don't have DML statements in a FOR loop... etc. As useless as this trigger is, it was a bit of fun to create.
 
 #### Apex Classes
 
@@ -61,4 +61,4 @@ Purpose: This trigger is really unnecessary. This could be better handled in a f
 
 ## Resources
 
-For details on using sfdx-simple, please review the [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev).
+For details on using sfdx, please review the [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev).
