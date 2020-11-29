@@ -1,34 +1,40 @@
-<h1 align="center">sfdx-dev-projects</h1>
+# sfdx-dev-projects
+
 This project is a collection of my Salesforce (small) coding projects. This collection comprises of multiple coded solutions that were created at different points and for different use cases. The metadata components may not fit together in the same org.
 
-#### How To Use This Repo
+### How To Use This Repo
 
-This repo contains multiple individual coding projects. I've created a sample empty package.xml file you use to deploy the identified related metadata components to your Trailhead Playground. <strong> Do not deploy any file to any Salesforce production org.</strong>  
+Don't deploy this project in its entirety. This repo contains multiple individual coding projects. I've created a sample empty package.xml file you use to deploy the identified related metadata components to your Trailhead Playground. <strong> Do not deploy any file to any Salesforce production org.</strong>  
 
-To learn how to work with package.xml and Salesforce CLI, review the Trailhead badge <a href="https://trailhead.salesforce.com/content/learn/modules/package-xml" target="_blank">Package.xml Metadata Management</a>. In that badge, you learn how to write xml and use package.xml to selectively deploy and retrieve metadata components in your Salesforce org.
+To refresh on working with package.xml using Salesforce CLI, review the Trailhead badge <a href="https://trailhead.salesforce.com/content/learn/modules/package-xml" target="_blank">Package.xml Metadata Management</a>. In that badge, you learn how to write xml and use package.xml to selectively deploy and retrieve metadata components in your Salesforce org.
 
 ===========================
 
 ### Contents
 
-- [Tools](#tools)
-- [Instructions](#instructions)
-  - [Deploy to your playground](#deploy-to-your-playground)
-- [Assets](#assets)
-- [Resources](#resources)
+- [sfdx-dev-projects](#sfdx-dev-projects)
+    - [How To Use This Repo](#how-to-use-this-repo)
+    - [Contents](#contents)
+  - [Tools](#tools)
+  - [Instructions](#instructions)
+    - [Deploy to your playground](#deploy-to-your-playground)
+  - [Assets](#assets)
+  - [Resources](#resources)
   
 ===========================
 
 ## Tools
 
-I used the following tools to create assets throughout this project.
+The following tools were used to create this project.
 |  Tool:       |  Version:  |
 | ------------ | ---------- |
 | **SFDX-CLI** | [![npm](https://img.shields.io/npm/v/sfdx-cli.svg?label=Salesforce%20CLI&&color=lightblue&logo=Salesforce&style=for-the-badge)](https://developer.salesforce.com/tools/sfdxcli)  |
 | **VS Code**  | ![alt-text](https://img.shields.io/badge/VS_CODE-1.51.1-BrightGreen?style=Popout&logo=Visual-Studio-Code) |
 
 ===========================
+
 ## Instructions
+
 Be sure to have Visual Studio Code (VS Code), Salesforce Extensions, and Salesforce CLI (sfdx-cli) installed before working with this project. This project uses the Salesforce Dev Hub feature and the command-line interface.
 
 To refresh on Salesforce DX, review the Trailhead project <a href="https://trailhead.salesforce.com/content/learn/projects/quick-start-salesforce-dx" target="_blank">Quick Start: Salesforce DX</a>
@@ -41,6 +47,7 @@ To refresh on navigating the command-ine interface, review the Trailhead module 
 4. Enable Dev Hub: https://trailhead.salesforce.com/content/learn/projects/quick-start-salesforce-dx
 
 ### Deploy to your playground
+
 1. On your local machine, modify the sample package.xml file to include the related assets metadata (remember, to use the components API name).
 2. Save the package.xml under the apex-sample folder.
 3. In VS Code, open a new terminal window.  
@@ -51,6 +58,7 @@ To refresh on navigating the command-ine interface, review the Trailhead module 
 6. Visually confirm the metadata components are in your Trailhead Playground.
 
 ===========================
+
 ## Assets
 
 * AccountUpdate </br>
@@ -58,9 +66,10 @@ To refresh on navigating the command-ine interface, review the Trailhead module 
 --Purpose: This trigger is really unnecessary. I needed a simple trigger that shows how to properly format code. This could be better handled in a flow. As useless as this trigger is, it was a bit of fun to create.
 AccountUpdate.trigger
 
-* Hot Account Updates </br>
+* Create Chatter Post on Hot Account Updates </br>
 --Description:  
 --Purpose:
+CreateChatterPostAstroAccount.cls
 HotAccountUpdate.trigger
 HotAccountsClass.cls
 HotAccountUpdateTest.cls (unit test for HotAccountUpdate.trigger and HotAccountsClass.cls)
@@ -78,14 +87,10 @@ RemoveAttachmentsGDPRTest.cls (unit test for trigger)
 RemoveAttachmentsGDPR.trigger
 
 * Create Account Sample</br>
---Description:  
+--Description:
 --Purpose:
 CreateAccount.cls
 CreateAccountTest.cls
-
-* Create Chatter Post Astro Account </br>
-[Work in progress]
-CreateChatterPostAstroAccount.cls
 
 ===========================
 
