@@ -55,43 +55,39 @@ To refresh on navigating the command-ine interface, review the Trailhead module 
 ===========================
 ### Assets
 
-#### Triggers
-
 * AccountUpdate </br>
 --Description: Post a chatter message on a specific group with account information when specific criteria on Account is met.
 --Purpose: This trigger is really unnecessary. I needed a simple trigger that shows how to properly format code. This could be better handled in a flow. As useless as this trigger is, it was a bit of fun to create.
+AccountUpdate.trigger
 
-* HotAccountTrigger </br>
+* Hot Account Updates </br>
 --Description:  
 --Purpose:
+HotAccountUpdate.trigger
+HotAccountsClass.cls
+HotAccountUpdateTest.cls (unit test for HotAccountUpdate.trigger and HotAccountsClass.cls)
 
 * Prevent User Leaving Mandatory Group </br>
 --Description:  
 --Purpose:
+PreventUserLeavingMandatoryGrp.trigger
 
-* Remove Attachments </br>
+* Remove Attachments GDPR</br>
 --Description:  
 --Purpose:
+CasesController.cls
+RemoveAttachmentsGDPRTest.cls (unit test for trigger)
+RemoveAttachmentsGDPR.trigger
 
-#### Apex Classes
-
-* Cases Controller </br>
-[Work in progress]
-
-* Create Account </br>
-[Work in progress]
+* Create Account Sample</br>
+--Description:  
+--Purpose:
+CreateAccount.cls
+CreateAccountTest.cls
 
 * Create Chatter Post Astro Account </br>
 [Work in progress]
-
-* Hot Account </br>
-[Work in progress]
-
-* Remove Attachments GDPR </br>
-[Work in progress]
-
-* Tests </br>
-[Work in progress]
+CreateChatterPostAstroAccount.cls
 
 #### Apps and Solutions
 

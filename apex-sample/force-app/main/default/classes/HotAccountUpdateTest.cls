@@ -1,5 +1,5 @@
 @IsTest
-private with sharing class HotAccountUpdateTriggerTest {
+private with sharing class HotAccountUpdateTest {
    @IsTest static void updateHotAccounts() {
      
     //Create opportunity 
