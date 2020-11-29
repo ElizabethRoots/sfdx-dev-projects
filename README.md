@@ -1,23 +1,21 @@
-# sfdx-dev-projects
+<h1>sfdx-dev-projects</h1>>
 
 This project is a collection of my Salesforce (small) coding projects. This collection comprises of multiple coded solutions that were created at different points and for different use cases. The metadata components may not fit together in the same org.
 
-### How To Use This Repo
+<h3>How To Use This Repo</h3>
 
 Don't deploy this project in its entirety. This repo contains multiple individual coding projects. I've created a sample empty package.xml file you use to deploy the identified related metadata components to your Trailhead Playground. <strong> Do not deploy any file to any Salesforce production org.</strong>  
 
 To refresh on working with package.xml using Salesforce CLI, review the Trailhead badge <a href="https://trailhead.salesforce.com/content/learn/modules/package-xml" target="_blank">Package.xml Metadata Management</a>. In that badge, you learn how to write xml and use package.xml to selectively deploy and retrieve metadata components in your Salesforce org.
 
-### Contents
+## Contents
 
-- [sfdx-dev-projects](#sfdx-dev-projects)
-    - [How To Use This Repo](#how-to-use-this-repo)
-    - [Contents](#contents)
-  - [Tools](#tools)
-  - [Instructions](#instructions)
-    - [Deploy to your playground](#deploy-to-your-playground)
-  - [Assets](#assets)
-  - [Resources](#resources)
+- [Contents](#contents)
+- [Tools](#tools)
+- [Instructions](#instructions)
+  - [Deploy to your playground](#deploy-to-your-playground)
+- [Assets](#assets)
+- [Resources](#resources)
   
 ---
 
