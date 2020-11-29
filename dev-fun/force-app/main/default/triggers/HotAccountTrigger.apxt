@@ -1,0 +1,23 @@
+trigger HotAccountUpdateTrigger on Opportunity (after update ) { 
+ if(trigger.isAfter) {
+         HotAccountsClass.afterUpdate();
+     }
+/*    List<SObject> updateList = new List<SObject>();
+    List<Account> accts = [SELECT Id , Name, Rating, (SELECT Id 
+                                                     FROM Opportunities 
+                                                WHERE StageName = 'Closed Won') 
+                                   		   FROM Account
+                                           WHERE Id = '0016g00000AaxV9AAJ'];
+      
+     //Iterate over the accounts, post chatter message with accnt info.
+     for ( Account ac : accts ) {    
+         for ( Opportunity oppty : Trigger.New ) { 
+             if (oppty.StageName == 'Closed Won'){
+                 ac.Rating = 'Hot';  
+                 updateList.add(ac);  
+             }  
+         }    
+     }
+    update updateList;
+*/
+}
