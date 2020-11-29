@@ -3,7 +3,7 @@ This project is a collection of my Salesforce (small) coding projects. This coll
 
 #### How To Use This Repo
 
-This repo contains multiple individual coding projects. I've created a sample empty package.xml file you use to deploy the identified related metadata components to your Trailhead Playground or non-business related Salesforce Developer edition org. <strong> Do not deploy any file to any Salesforce production org.</strong> Please only use Trailhead Playgrounds or non-business related Salesforce Developer edition orgs.
+This repo contains multiple individual coding projects. I've created a sample empty package.xml file you use to deploy the identified related metadata components to your Trailhead Playground. <strong> Do not deploy any file to any Salesforce production org.</strong> Please only use Trailhead Playgrounds or non-business related Salesforce Developer edition orgs.
 
 To learn how to work with package.xml and Salesforce CLI, review the Trailhead badge <a href="https://trailhead.salesforce.com/content/learn/modules/package-xml" target="_blank">Package.xml Metadata Management</a>. In that badge, you learn how to code xml and use package.xml to selectively deploy and retrieve metadata components in your Salesforce org.
 
@@ -60,6 +60,18 @@ To refresh on navigating the command-ine interface, review the Trailhead module 
 * AccountUpdate </br>
 --Description: Post a chatter message on a specific group with account information when specific criteria on Account is met.
 --Purpose: This trigger is really unnecessary. I needed a simple trigger that shows how to properly format code. This could be better handled in a flow. As useless as this trigger is, it was a bit of fun to create.
+
+* HotAccountTrigger </br>
+--Description:  
+--Purpose:
+
+* Prevent User Leaving Mandatory Group </br>
+--Description:  
+--Purpose:
+
+* Remove Attachments </br>
+--Description:  
+--Purpose:
 
 #### Apex Classes
 
