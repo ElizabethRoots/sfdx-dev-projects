@@ -3,7 +3,7 @@
 //Description: Unit test for removeAttachmentsGDPR trigger.
 //The purpose of this trigger is to specifically test attachment deletion from case when GDPR = true
 @isTest
-public class TestRemoveAttachmentsGDPR {
+public class RemoveAttachmentsGDPRTest {
 
    @istest
    public static void AttachmentTest(){

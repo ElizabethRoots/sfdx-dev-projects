@@ -1,5 +1,5 @@
 //Post chatter message on a specific group with account information when specific criteria on an Account is met.
-public class createChatterPostAstroAccount {
+public class CreateChatterPostAstroAccount {
     public static void afterInsert(Account[] records) {
         List<FeedItem> posts = new List<FeedItem>();
         

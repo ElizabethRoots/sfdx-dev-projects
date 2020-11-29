@@ -3,7 +3,7 @@ This project is a collection of my Salesforce (small) coding projects. This coll
 
 #### How To Use This Repo
 
-This repo contains multiple individual coding projects. I've created a sample empty package.xml file you use to deploy the identified related metadata components to your Trailhead Playground or non-business related Salesforce Developer edition org. <strong> Do not deploy any file to any Salesforce production org.</strong> Please only use Trailhead Playgrounds or non-business related Salesforce Developer edition orgs.
+This repo contains multiple individual coding projects. I've created a sample empty package.xml file you use to deploy the identified related metadata components to your Trailhead Playground. <strong> Do not deploy any file to any Salesforce production org.</strong> Please only use Trailhead Playgrounds or non-business related Salesforce Developer edition orgs.
 
 To learn how to work with package.xml and Salesforce CLI, review the Trailhead badge <a href="https://trailhead.salesforce.com/content/learn/modules/package-xml" target="_blank">Package.xml Metadata Management</a>. In that badge, you learn how to code xml and use package.xml to selectively deploy and retrieve metadata components in your Salesforce org.
 
@@ -13,15 +13,13 @@ To learn how to work with package.xml and Salesforce CLI, review the Trailhead b
 
 - [Tools](#tools)
 - [Instructions](#instructions)
-  - [Assets](#assets)
-    - [Triggers](#triggers)
-    - [Apex Classes](#apex-classes)
-    - [Apps and Solutions](#apps-and-solutions)
+  - [Deploy to your playground](#deploy-to-your-playground)
+- [Assets](#assets)
 - [Resources](#resources)
   
 ===========================
 
-### Tools
+## Tools
 
 I used the following tools to create assets throughout this project.
 |  Tool:       |  Version:  |
@@ -30,7 +28,7 @@ I used the following tools to create assets throughout this project.
 | **VS Code**  | ![alt-text](https://img.shields.io/badge/VS_CODE-1.51.1-BrightGreen?style=Popout&logo=Visual-Studio-Code) |
 
 ===========================
-### Instructions
+## Instructions
 Be sure to have Visual Studio Code (VS Code), Salesforce Extensions, and Salesforce CLI (sfdx-cli) installed before working with this project. This project uses the command-line interface.
 
 To refresh on Salesforce DX, review the Trailhead project <a href="https://trailhead.salesforce.com/content/learn/projects/quick-start-salesforce-dx" target="_blank">Quick Start: Salesforce DX</a>
@@ -42,7 +40,7 @@ To refresh on navigating the command-ine interface, review the Trailhead module 
 3. Install Salesforce CLI here: https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_install_cli.htm
 4. Enable Dev hub: https://trailhead.salesforce.com/content/learn/projects/quick-start-salesforce-dx
 
-#### Deploy to your playground
+### Deploy to your playground
 1. On your local machine, modify the sample package.xml file to include the related assets metadata (remember, to use the components API name).
 2. Save the package.xml under the apex-sample folder. 
 3. In VS Code, open a new terminal window.  
@@ -53,37 +51,41 @@ To refresh on navigating the command-ine interface, review the Trailhead module 
 6. Visually confirm the metadata components are in your Trailhead Playground.
 
 ===========================
-### Assets
-
-#### Triggers
+## Assets
 
 * AccountUpdate </br>
 --Description: Post a chatter message on a specific group with account information when specific criteria on Account is met.
 --Purpose: This trigger is really unnecessary. I needed a simple trigger that shows how to properly format code. This could be better handled in a flow. As useless as this trigger is, it was a bit of fun to create.
+AccountUpdate.trigger
 
-#### Apex Classes
+* Hot Account Updates </br>
+--Description:  
+--Purpose:
+HotAccountUpdate.trigger
+HotAccountsClass.cls
+HotAccountUpdateTest.cls (unit test for HotAccountUpdate.trigger and HotAccountsClass.cls)
 
-* Cases Controller </br>
-[Work in progress]
+* Prevent User Leaving Mandatory Group </br>
+--Description:  
+--Purpose:
+PreventUserLeavingMandatoryGrp.trigger
 
-* Create Account </br>
-[Work in progress]
+* Remove Attachments GDPR</br>
+--Description:  
+--Purpose:
+CasesController.cls
+RemoveAttachmentsGDPRTest.cls (unit test for trigger)
+RemoveAttachmentsGDPR.trigger
+
+* Create Account Sample</br>
+--Description:  
+--Purpose:
+CreateAccount.cls
+CreateAccountTest.cls
 
 * Create Chatter Post Astro Account </br>
 [Work in progress]
-
-* Hot Account </br>
-[Work in progress]
-
-* Remove Attachments GDPR </br>
-[Work in progress]
-
-* Tests </br>
-[Work in progress]
-
-#### Apps and Solutions
-
-[Work in progress]
+CreateChatterPostAstroAccount.cls
 
 ===========================
 

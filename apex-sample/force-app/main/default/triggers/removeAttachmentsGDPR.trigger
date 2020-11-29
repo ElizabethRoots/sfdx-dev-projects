@@ -1,7 +1,7 @@
 //Author: Elizabeth DeGroot
 //Date: Jan 2018
 //Description: Remove Attachments from Cases when GDPR compliant checkbox is true.
-trigger removeAttachmentsGDPR on Case (after update) {
+trigger RemoveAttachmentsGDPR on Case (after update) {
 
   //Declare variables
   public Set<Id> CaseSetId = new Set<Id>();

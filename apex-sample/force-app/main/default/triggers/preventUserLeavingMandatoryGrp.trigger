@@ -1,7 +1,7 @@
 /* Author: Elizabeth DeGroot
  * Date: Nov 2017
  * Description: Chatter trigger to prevent users from leaving specific mandatory chatter group in Appulse.*/
-trigger preventUserLeavingMandatoryGrp on CollaborationGroupMember (before update, before delete) {    
+trigger PreventUserLeavingMandatoryGrp on CollaborationGroupMember (before update, before delete) {    
  
 //Define the chatter group trigger should fire on
 Id cgid = [Select Name From CollaborationGroup Where name = 'Q3-AdminSupport' LIMIT 1].Id;         
