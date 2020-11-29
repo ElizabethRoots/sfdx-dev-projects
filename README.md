@@ -26,7 +26,7 @@ To learn how to work with package.xml and Salesforce CLI, review the Trailhead b
 I used the following tools to create assets throughout this project.
 |  Tool:       |  Version:  |
 | ------------ | ---------- |
-| **SFDX-CLI** | [![npm](https://img.shields.io/npm/v/sfdx-cli.svg?label=SFDX-CLI&logo=Salesforce&style=Popout)](https://developer.salesforce.com/tools/sfdxcli)  |
+| **SFDX-CLI** | [![npm](https://img.shields.io/npm/v/sfdx-cli.svg?label=Salesforce%20CLI&&color=lightblue&logo=Salesforce&style=for-the-badge)](https://developer.salesforce.com/tools/sfdxcli)  |
 | **VS Code**  | ![alt-text](https://img.shields.io/badge/VS_CODE-1.51.1-BrightGreen?style=Popout&logo=Visual-Studio-Code) |
 
 ===========================
