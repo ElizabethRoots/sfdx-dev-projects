@@ -83,6 +83,7 @@ PreventUserLeavingMandatoryGrp.trigger
 --Description:  
 --Purpose:
 CasesController.cls
+CaseGDPRUpdate.page
 RemoveAttachmentsGDPRTest.cls (unit test for trigger)
 RemoveAttachmentsGDPR.trigger
 

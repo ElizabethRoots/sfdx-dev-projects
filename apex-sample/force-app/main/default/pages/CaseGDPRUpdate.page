@@ -1,0 +1,60 @@
+<!-- Author: Elizabeth DeGroot
+     Date: Dec 2017
+     Description: Update selected records and remove sensitive information, replaced with generic GDPR + today().
+-->
+<apex:page standardController="Case" lightningStylesheets="true" extensions="CasesController" tabStyle="Case" RecordSetVar="cases">
+<!-- /////Header//// -->
+   <head> 
+      <meta charset="utf-8" /> <!--Declare character set-->
+      <meta http-equiv="x-ua-compatible" content="ie=edge" /> <!--browser compatibility-->
+      <title>GDPR Data Locator</title> <!--title of document-->
+      <meta name="viewport" content="width=device-width, initial-scale=1" /> <!--determine page size for proper load -->
+      <apex:slds /> 
+   </head>   
+    
+   <!--Display header and list buttons -->
+   <div class="slds-page-header">
+      <div class="slds-media"> 
+        <div class="slds-media__body">
+           <h1 class="slds-page-header__title slds-truncate slds-align-middle" title="GDPR Data Record Update">General Data Protection Regulation (GDPR) Data Record Update</h1>
+           <p class="slds-text-body_small slds-line-height_reset">Records Affected: Cases • Accounts • Contacts</p>
+        </div>
+        
+        <!-- Action buttons -->
+        <apex:form > 
+           <apex:outputPanel >  
+              <apex:commandButton action="{!gdprUpdate}" value="Update Fields"/>
+              <apex:commandButton action="{!saveCases}" value="Save Records" onclick="return confirm('Are you sure you want to update all records? Please note, this cannot be undone or reverted back! ')" />
+              <apex:commandButton action="{!cancelOps}" value="Cancel" onclick="window.location.top.reload();"/>
+           </apex:outputPanel> 
+        </apex:form> 
+      </div>
+   </div>
+   
+<!-- //// Body //// --> 
+   <div> 
+      <p> <!-- Help text -->
+         Warning: Once a record is updated and saved, there is no way to revert back. Please do not 'Save' unless you are certain!! <br/> 
+         To remove customer information from all records, click the 'Update Fields' button, visually confirm changes to all fields, then click 'Save Records'. 
+         This will update all records and remove all specified customer information. 
+      </p>
+   </div>  
+    
+   <!--Data Table display records -->
+   <apex:form >  
+      <apex:pageMessages />  <!-- Error Message displayed --> 
+         <apex:pageBlock title="Selected Records">  
+            <apex:pageBlockTable value="{!selected}" var="case">
+               <apex:column headerValue="Case Number">
+                   <apex:outputLink value="/{!case.id}">{!case.CaseNumber }</apex:outputLink>
+               </apex:column>  
+               <apex:column headerValue="User Id" value="{!case.User_ID__c}"/>  
+               <apex:column headerValue="User Email"  value="{!case.User_Email__c}"/> 
+               <apex:column headerValue="User Name" value="{!case.User_Name__c}"/>  
+               <apex:column headerValue="Org Id" value="{!case.OrgId__c}"/>  
+               <apex:column headerValue="Content" value="{!case.Content__c }"/>
+               <apex:column headerValue="GDPR Compliant" value="{!case.GDPR_Compliant__c}"/>
+             </apex:pageBlockTable> 
+         </apex:pageBlock> 
+   </apex:form>  
+</apex:page>
