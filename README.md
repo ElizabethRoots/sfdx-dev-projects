@@ -1,5 +1,9 @@
 <h1 align="center">sfdx-dev-projects</h1>
-This project contains my Salesforce code samples. In this project, I use sfdx and develop on the Salesforce platform using scratch orgs.
+This project is a collection of my Salesforce (small) coding projects. This collection comprises of multiple coded solutions that were created at different points and for different use cases. The metadata components may not fit together in the same org.
+
+#### How To Use This Repo
+
+This repo contains multiple individual coding projects. I've created a package.xml file that identifies all related metadata components for each identified asset. You use the package.xml file to deploy the asset to your scratch org. <strong> Do not deploy any file to any Salesforce production org.</strong>
 
 ===========================
 
@@ -11,6 +15,7 @@ This project contains my Salesforce code samples. In this project, I use sfdx an
   - [Triggers](#triggers)
   - [Apex Classes](#apex-classes)
   - [Apps and Solutions](#apps-and-solutions)
+- [Instructions](#instructions)
 - [Resources](#resources)
   
 ===========================
@@ -21,7 +26,7 @@ I used the following tools to create assets throughout this project.
 |  Tool:       |  Version:  |
 | ------------ | ---------- |
 | **SFDX-CLI** | [![npm](https://img.shields.io/npm/v/sfdx-cli.svg?label=SFDX-CLI&logo=Salesforce&style=Popout)](https://developer.salesforce.com/tools/sfdxcli)  |
-| **VS Code**  | ![alt-text](https://img.shields.io/badge/VS_CODE-1.51.1-BrightGreen?style=Popout&logo=Visual-Studio-Code)
+| **VS Code**  | ![alt-text](https://img.shields.io/badge/VS_CODE-1.51.1-BrightGreen?style=Popout&logo=Visual-Studio-Code) | 
 
 ===========================
 
@@ -59,6 +64,11 @@ Purpose: This trigger is really unnecessary. This could be better handled in a f
 
 ===========================
 
+## Instructions
+Be sure to have Visual Studio Code (VS Code) and Salesforce CLI (sfdx-cli) installed before working with this project.
+
+
+===========================
 ## Resources
 
 For details on using sfdx, please review the [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev).
