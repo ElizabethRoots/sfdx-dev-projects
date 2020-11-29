@@ -13,15 +13,13 @@ To learn how to work with package.xml and Salesforce CLI, review the Trailhead b
 
 - [Tools](#tools)
 - [Instructions](#instructions)
-  - [Assets](#assets)
-    - [Triggers](#triggers)
-    - [Apex Classes](#apex-classes)
-    - [Apps and Solutions](#apps-and-solutions)
+  - [Deploy to your playground](#deploy-to-your-playground)
+- [Assets](#assets)
 - [Resources](#resources)
   
 ===========================
 
-### Tools
+## Tools
 
 I used the following tools to create assets throughout this project.
 |  Tool:       |  Version:  |
@@ -30,7 +28,7 @@ I used the following tools to create assets throughout this project.
 | **VS Code**  | ![alt-text](https://img.shields.io/badge/VS_CODE-1.51.1-BrightGreen?style=Popout&logo=Visual-Studio-Code) |
 
 ===========================
-### Instructions
+## Instructions
 Be sure to have Visual Studio Code (VS Code), Salesforce Extensions, and Salesforce CLI (sfdx-cli) installed before working with this project. This project uses the command-line interface.
 
 To refresh on Salesforce DX, review the Trailhead project <a href="https://trailhead.salesforce.com/content/learn/projects/quick-start-salesforce-dx" target="_blank">Quick Start: Salesforce DX</a>
@@ -42,7 +40,7 @@ To refresh on navigating the command-ine interface, review the Trailhead module 
 3. Install Salesforce CLI here: https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_install_cli.htm
 4. Enable Dev hub: https://trailhead.salesforce.com/content/learn/projects/quick-start-salesforce-dx
 
-#### Deploy to your playground
+### Deploy to your playground
 1. On your local machine, modify the sample package.xml file to include the related assets metadata (remember, to use the components API name).
 2. Save the package.xml under the apex-sample folder. 
 3. In VS Code, open a new terminal window.  
@@ -53,7 +51,7 @@ To refresh on navigating the command-ine interface, review the Trailhead module 
 6. Visually confirm the metadata components are in your Trailhead Playground.
 
 ===========================
-### Assets
+## Assets
 
 * AccountUpdate </br>
 --Description: Post a chatter message on a specific group with account information when specific criteria on Account is met.
@@ -88,10 +86,6 @@ CreateAccountTest.cls
 * Create Chatter Post Astro Account </br>
 [Work in progress]
 CreateChatterPostAstroAccount.cls
-
-#### Apps and Solutions
-
-[Work in progress]
 
 ===========================
 
