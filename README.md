@@ -8,8 +8,6 @@ Don't deploy this project in its entirety. This repo contains multiple individua
 
 To refresh on working with package.xml using Salesforce CLI, review the Trailhead badge <a href="https://trailhead.salesforce.com/content/learn/modules/package-xml" target="_blank">Package.xml Metadata Management</a>. In that badge, you learn how to write xml and use package.xml to selectively deploy and retrieve metadata components in your Salesforce org.
 
-===========================
-
 ### Contents
 
 - [sfdx-dev-projects](#sfdx-dev-projects)
@@ -21,7 +19,7 @@ To refresh on working with package.xml using Salesforce CLI, review the Trailhea
   - [Assets](#assets)
   - [Resources](#resources)
   
-===========================
+---
 
 ## Tools
 
@@ -31,7 +29,7 @@ The following tools were used to create this project.
 | **SFDX-CLI** | [![npm](https://img.shields.io/npm/v/sfdx-cli.svg?label=Salesforce%20CLI&&color=lightblue&logo=Salesforce&style=for-the-badge)](https://developer.salesforce.com/tools/sfdxcli)  |
 | **VS Code**  | ![alt-text](https://img.shields.io/badge/VS_CODE-1.51.1-BrightGreen?style=Popout&logo=Visual-Studio-Code) |
 
-===========================
+---
 
 ## Instructions
 
@@ -46,6 +44,8 @@ To refresh on navigating the command-ine interface, review the Trailhead module 
 3. Install Salesforce CLI here: https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_install_cli.htm
 4. Enable Dev Hub: https://trailhead.salesforce.com/content/learn/projects/quick-start-salesforce-dx
 
+---
+
 ### Deploy to your playground
 
 1. On your local machine, modify the sample package.xml file to include the related assets metadata (remember, to use the components API name).
@@ -57,7 +57,7 @@ To refresh on navigating the command-ine interface, review the Trailhead module 
 <code>sfdx force:source:deploy -x ./package.xml -u DevHub -w10</code>
 6. Visually confirm the metadata components are in your Trailhead Playground.
 
-===========================
+---
 
 ## Assets
 
@@ -92,7 +92,7 @@ RemoveAttachmentsGDPR.trigger
 CreateAccount.cls
 CreateAccountTest.cls
 
-===========================
+---
 
 ## Resources
 
